@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Administrador de Pacientes</title>
+    <script>
+        id = document.getElementById.bind(document)
+    q = document.querySelector.bind(document)
+    all = document.querySelectorAll.bind(document)
+    ce = document.createElement.bind(document)
+    c = console.log.bind(document) 
+    ael= document.addEventListener.bind(document)
+    
+  
+  </script>
+      <link href="css/row.css" rel="stylesheet" />
+      <link href="css/custom.css" rel="stylesheet" />
+      <link href="css/inputs.css" rel="stylesheet" />
+      <link rel="stylesheet" href="css/columns.css" />
+      <link rel="stylesheet" href="css/forms.css" />
+</head>
+<body>
+  
+        <div class="row" id="alert"></div>
+        <div  class="row_2">
+            <div class="border">
+                <form id="nueva-cita" >
+                    
+                    <div class="auto column ">
+                    <div>
+                        <label >Nombre:</label>
+                            <input type="text" id="mascota" name="mascota" >
+                    </div>
+                    <div>
+                        <label >Propietario:</label>
+                        <input type="text" id="propietario" name="propietario" >
+                    </div>
+                    <div>
+                        <label >Teléfono:</label>
+                            <input type="tel" id="telefono" name="telefono" >
+                    </div>
+                    <div>
+                        <label>Fecha:</label>
+                            <input type="date" id="fecha" name="fecha">
+                    </div>
+                    <div>
+                        <label >Hora:</label>
+                             <input type="time" id="hora" name="hora">
+                    </div>
+                    <div>
+                        <label>Sintomas:</label>
+                            <textarea id="sintomas" name="sintomas" ></textarea>
+                    </div>
+                    <div>
+                           <button type="submit" >Crear Cita</button>
+                     </div>
+                </div><!-- row_7 -->
+                </form>
+            </div>
+
+
+
+              <div class="border">
+                <h2 id="administra" >Administra tus Citas</h2>
+                   <div class="row scroll_y">
+                    <ul id="citas" class="border"></ul>
+                   </div>
+                </div>
+            </div>
+        </div> 
+   
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>

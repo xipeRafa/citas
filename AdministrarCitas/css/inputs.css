@@ -1,0 +1,38 @@
+[class^="btn"]{
+    width: 90%;
+    margin:  .4% 5% ;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: .5% 0;
+  }
+
+[class^="btn"]>button{
+  margin-right: 2% ;
+  float: left;
+}
+ 
+.btn>div{
+  width: 100%;
+} 
+.btn_2>button {
+  width: 49%;
+ }
+ 
+.btn_3>div {
+  width: 32%;
+ }
+[class^="btn"]>div>input{
+     background-color: rgb(255, 255, 255); 
+    padding: 5px 0;
+    border-radius: 6px;
+    margin: 0;
+    width: 100%;
+    color: #000;
+    text-transform: uppercase;
+  }
+
+[class^="btn"]>button:last-child {margin-right: 0;}
+
+[class^="row"]>div>input{
+  width: 100%;
+}

@@ -1,0 +1,17 @@
+.red{
+    background-color: red;
+  }
+  .green{
+    background-color: green;
+  }
+
+  .scroll_y{
+    overflow-y:auto;
+  height: 75vh;
+  color:red;
+  }
+
+  .border{
+    box-shadow: inset 0 0 0 1px white;
+  }
+  
